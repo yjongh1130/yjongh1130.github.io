@@ -1,6 +1,6 @@
 import { resizeAspectRatio, Axes } from '../util/util.js';
 import { Shader, readShaderFile } from '../util/shader.js';
-import { Pyramid } from './squarepyramid.js';   
+import { Pyramid } from './squarePyramid.js';   
 
 const canvas = document.getElementById('glCanvas');
 const gl = canvas.getContext('webgl2');
